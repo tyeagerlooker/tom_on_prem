@@ -20,7 +20,7 @@ view: users_faa {
     type: string
     sql: ${TABLE}.LAST_NAME ;;
   }
-
+#
   dimension: email {
     type: string
     sql: ${TABLE}.EMAIL ;;

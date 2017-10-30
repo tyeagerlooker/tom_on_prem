@@ -25,7 +25,7 @@ view: inventory_items {
     ]
     sql: ${TABLE}.created_at ;;
   }
-
+#
   dimension: product_id {
     type: number
     # hidden: yes

@@ -26,7 +26,7 @@ view: products {
     type: string
     sql: ${TABLE}.item_name ;;
   }
-
+#
   dimension: rank {
     type: number
     sql: ${TABLE}.rank ;;

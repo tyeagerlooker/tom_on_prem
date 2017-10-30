@@ -18,7 +18,7 @@ view: order_items_the_look {
     # hidden: yes
     sql: ${TABLE}.order_id ;;
   }
-
+#
   dimension_group: returned {
     type: time
     timeframes: [
